@@ -1,13 +1,34 @@
-name: Simple CI
+name: CI Pipeline
 
-on: [push]
+on:
+  push:
+    branches:
+      - feature/project-setup
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright browsers
+        run: node ./node_modules/playwright/cli.js install --with-deps
+
+      - name: Run automated tests
+        run: node ./node_modules/playwright/cli.js test
 
       - name: Build Docker image
         run: docker build -t simple-portfolio .
+
+      - name: Show files
+        run: ls

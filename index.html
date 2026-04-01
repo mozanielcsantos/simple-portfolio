@@ -1,64 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photography Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MountJoy Photographer is a landscape and trips photographer in Dublin offering cinematic portfolio work, premium travel storytelling, fine art prints and luxury client experiences.">
+  <meta name="keywords" content="landscape photographer Dublin, trips photographer Dublin, travel photographer Dublin, Mountjoy Square photographer, fine art prints Ireland">
+  <title>MountJoy Photographer | Travel and Landscape Photography in Dublin</title>
+  <meta name="author" content="MountJoy Photographer">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="MountJoy Photographer | Travel and Landscape Photography in Dublin">
+  <meta property="og:description" content="Landscape and trips photographer in Dublin offering elegant travel stories, portrait sessions, commercial commissions and fine art prints.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo.png">
+  <meta property="og:locale" content="en_IE">
+  <link rel="canonical" href="https://mountjoyphotographer.com/">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "MountJoy Photographer",
+    "url": "https://mountjoyphotographer.com/",
+    "logo": "https://mountjoyphotographer.com/assets/logo.png",
+    "image": "https://mountjoyphotographer.com/assets/logo.png",
+    "description": "Dublin-based travel, landscape and portrait photographer serving tourists, families, companies and print buyers.",
+    "telephone": "+35315550124",
+    "email": "hello@mountjoyphotographer.com",
+    "areaServed": ["Dublin", "Ireland"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Mountjoy Square",
+      "addressLocality": "Dublin 1",
+      "addressCountry": "IE"
+    },
+    "sameAs": [
+      "https://instagram.com/mountjoyphotographer",
+      "https://www.pinterest.com/mountjoyphotographer",
+      "https://www.behance.net/mountjoyphotographer"
+    ]
+  }
+  </script>
 </head>
 <body>
 
-<!-- NAVBAR -->
-<header class="navbar">
-    <div class="logo">
-        <img src="logo.png" alt="Logo">
-    </div>
-
-    <nav>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
+<header class="topbar">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.png" alt="MountJoy Photographer logo">
+      <div class="brand-text">
+        <strong>MountJoy Photographer</strong>
+        <span>Travel • Landscape • Portraits</span>
+      </div>
+    </a>
+    <button class="mobile-toggle" aria-label="Open menu">☰</button>
+    <nav class="nav-links">
+      <a class="active" href="index.html">Home</a>
+      <a class="" href="pages/about.html">About</a>
+      <a class="" href="pages/portfolio.html">Portfolio</a>
+      <a class="" href="pages/services.html">Services</a>
+      <a class="" href="pages/packages.html">Packages</a>
+      <a class="" href="pages/prints.html">Prints</a>
+      <a class="" href="pages/blog.html">Blog</a>
+      <a class="" href="pages/faq.html">FAQ</a>
+      <a class="" href="pages/contact.html">Contact</a>
     </nav>
+    <a class="nav-cta" href="pages/portfolio.html">View Portfolio</a>
+  </div>
 </header>
 
-<!-- HERO -->
+
 <section class="hero">
-    <div class="hero-content">
-        <h4>LANDSCAPE & TRAVEL PHOTOGRAPHY</h4>
-        <h1>Through the <span>Lens</span></h1>
-        <p>Capturing the world's most breathtaking landscapes, one journey at a time</p>
-        <button>View Gallery</button>
+  <div class="hero-grid">
+    <div class="hero-panel reveal">
+      <span class="eyebrow">Dublin-Based Travel & Landscape Storytelling</span>
+      <h1>Elegant imagery for journeys, places and people who want to remember how it felt.</h1>
+      <p>MountJoy Photographer creates cinematic travel, landscape and portrait photography for tourists, families and companies looking for premium visual storytelling in Dublin and beyond. From atmospheric destination frames to polished brand commissions, every gallery is designed to feel timeless, emotional and beautifully curated.</p>
+      <div class="hero-actions">
+        <a class="button-primary" href="pages/portfolio.html">View Portfolio</a>
+        <a class="button-secondary" href="pages/contact.html">Make an Inquiry</a>
+      </div>
     </div>
+    <div class="hero-stats reveal">
+      <div class="glass-card stat"><strong>150+</strong><span>Private travel and portrait sessions delivered across Ireland and Europe.</span></div>
+      <div class="glass-card stat"><strong>Fine Art</strong><span>Curated print collections for collectors, hotels and creative workspaces.</span></div>
+      <div class="glass-card stat"><strong>Luxury Feel</strong><span>Guided planning, elegant editing and premium gallery presentation.</span></div>
+      <div class="glass-card stat"><strong>Dublin 1</strong><span>Based near Mountjoy Square and available for local and destination work.</span></div>
+    </div>
+  </div>
 </section>
 
-<!-- GALLERY -->
-<section id="gallery" class="gallery">
-    <h3>Portfolio</h3>
-    <h2>Around the world</h2>
-
-    <div class="gallery-grid">
-        <img src="images/img1.jpg">
-        <img src="images/img2.jpg">
-        <img src="images/img3.jpg">
-        <img src="images/img4.jpg">
-    </div>
+<section class="logo-row">
+  <div class="container logo-strip reveal">
+    <div class="logo-pill">Destination Portraits</div>
+    <div class="logo-pill">Travel Editorial</div>
+    <div class="logo-pill">Family City Sessions</div>
+    <div class="logo-pill">Fine Art Prints</div>
+    <div class="logo-pill">Corporate Visual Stories</div>
+  </div>
 </section>
 
-<!-- CONTACT -->
-<section id="contact" class="contact">
-    <h4>GET IN TOUCH</h4>
-    <h2>Let’s Work Together</h2>
-    <p>Available for commercial projects, prints and collaborations.</p>
-
-    <div class="contact-grid">
-        <div class="card">Email</div>
-        <div class="card">Instagram</div>
-        <div class="card">Location</div>
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Featured Work</span>
+      <h2>Selected work designed to feel cinematic, polished and emotionally rich.</h2>
+      <p class="lead">The homepage keeps the imagery central while still giving visitors clear paths toward the portfolio, print collections, packages and inquiry pages, so the experience feels premium without becoming confusing.</p>
     </div>
+    <div class="grid-3">
+      <article class="card reveal">
+        <div class="visual" style="background-image:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80')"></div>
+        <div class="card-body">
+          <div class="kicker">Travel Stories</div>
+          <h3>Journeys with atmosphere</h3>
+          <p>Destination imagery that feels immersive, polished and rich in place.</p>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="visual" style="background-image:url('https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80')"></div>
+        <div class="card-body">
+          <div class="kicker">Landscape Prints</div>
+          <h3>Fine art for interiors</h3>
+          <p>Signature landscape frames prepared for collectors, boutique spaces and gifting.</p>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="visual" style="background-image:url('https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=900&q=80')"></div>
+        <div class="card-body">
+          <div class="kicker">Portrait Sessions</div>
+          <h3>People framed naturally</h3>
+          <p>Relaxed, editorial-style portraits for couples, families and modern brands.</p>
+        </div>
+      </article>
+    </div>
+  </div>
 </section>
 
-<footer>
-    <p>© 2026 Photography Portfolio</p>
+<section class="section-tight">
+  <div class="container grid-2">
+    <div class="reveal">
+      <span class="eyebrow">About the Studio</span>
+      <h2>A friendly premium experience shaped by light, movement and honest detail.</h2>
+      <p>MountJoy Photographer was built around the idea that travel and landscape images should do more than document a location. They should hold atmosphere, memory and emotion. Sessions are calm, guided and personal, balancing luxury presentation with a warm human approach.</p>
+      <div class="info-list">
+        <div class="info-item"><span>Based</span><span>Mountjoy Square, Dublin 1, Ireland</span></div>
+        <div class="info-item"><span>Works With</span><span>Tourists, families, companies and luxury-minded travellers</span></div>
+        <div class="info-item"><span>Main Offer</span><span>Travel, landscapes, destination portraits, prints and editorial commissions</span></div>
+      </div>
+    </div>
+    <div class="visual-overlay reveal">
+      <div class="visual visual-tall" style="background-image:url('https://images.unsplash.com/photo-1519904981063-b0cf448d479e?auto=format&fit=crop&w=1200&q=80')"></div>
+      <div class="visual-copy">
+        <h3>Made for refined storytelling</h3>
+        <p>Gallery-led layouts, category pages and clear booking paths help visitors move from inspiration to inquiry without distraction, which is exactly why they are built into this design.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Services</span>
+      <h2>Everything needed for a complete, polished photography brand.</h2>
+    </div>
+    <div class="grid-4">
+      <div class="card feature-card reveal"><div class="icon">✦</div><h3>Travel Sessions</h3><p>Personal, couple or family shoots in Dublin and destination settings.</p></div>
+      <div class="card feature-card reveal"><div class="icon">◌</div><h3>Landscape Commissions</h3><p>Location-based imagery for editorial use, hospitality and branding.</p></div>
+      <div class="card feature-card reveal"><div class="icon">◆</div><h3>Fine Art Prints</h3><p>Curated print sales in premium sizes and framed collector finishes.</p></div>
+      <div class="card feature-card reveal"><div class="icon">△</div><h3>Company Visuals</h3><p>Luxury travel visuals and destination storytelling for modern brands.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Testimonials</span>
+      <h2>Kind words from travellers, families and creative clients.</h2>
+    </div>
+    <div class="grid-3">
+      <article class="card testimonial-card reveal"><div class="stars">★★★★★</div><p>“The images felt like a film still version of our Dublin trip. Every frame looked expensive, emotional and beautifully natural.”</p><div class="person"><div class="avatar">A</div><div><strong>Amelia &amp; Theo</strong><br><span>Travel Session Clients</span></div></div></article>
+      <article class="card testimonial-card reveal"><div class="stars">★★★★★</div><p>“We needed landscape-led visuals that felt high-end for our hospitality campaign, and the final gallery was exactly that.”</p><div class="person"><div class="avatar">L</div><div><strong>Liffey House Stays</strong><br><span>Brand Commission</span></div></div></article>
+      <article class="card testimonial-card reveal"><div class="stars">★★★★★</div><p>“Warm direction, calm energy and a really polished result. The portraits never felt forced, which made all the difference.”</p><div class="person"><div class="avatar">S</div><div><strong>Sofia Moran</strong><br><span>Family Portrait Client</span></div></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container cta-banner reveal">
+    <div>
+      <span class="eyebrow">Ready to Work Together</span>
+      <h3>Browse the galleries, explore the packages or send an inquiry for a custom project.</h3>
+    </div>
+    <a class="button-primary" href="pages/contact.html">Start Your Inquiry</a>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container grid-2 comparison-wrap">
+    <div class="reveal">
+      <span class="eyebrow">Before & After</span>
+      <h2>From a simple capture to a refined final image.</h2>
+      <p>Editing is handled with a restrained, premium finish. Colour, contrast and detail are refined carefully so images keep their natural atmosphere while still feeling elevated, polished and ready for web, print or campaign use.</p>
+      <ul class="clean-list">
+        <li>Balanced colour grading with cinematic warmth</li>
+        <li>Clean distractions and polished tonal detail</li>
+        <li>Natural skin and landscape finishing</li>
+      </ul>
+    </div>
+    <div class="before-after-card reveal">
+      <div class="comparison-frame">
+        <div class="comparison-side before-side">Before</div>
+        <div class="comparison-side after-side">After</div>
+        <div class="comparison-divider"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Instagram Preview</span>
+      <h2>Moments, textures and travel notes from the feed.</h2>
+      <p class="lead">These are placeholder social links for now, ready to be replaced later with the real account when you have it.</p>
+    </div>
+    <div class="instagram-grid">
+      <a class="insta-card reveal" href="https://instagram.com/mountjoyphotographer" target="_blank"><span>01</span><strong>Harbour light and sea mist</strong></a>
+      <a class="insta-card reveal" href="https://instagram.com/mountjoyphotographer" target="_blank"><span>02</span><strong>Golden reflections in Dublin</strong></a>
+      <a class="insta-card reveal" href="https://instagram.com/mountjoyphotographer" target="_blank"><span>03</span><strong>Quiet mountain drama</strong></a>
+      <a class="insta-card reveal" href="https://instagram.com/mountjoyphotographer" target="_blank"><span>04</span><strong>Portraits on city walks</strong></a>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container cta-banner reveal brochure-banner">
+    <div>
+      <span class="eyebrow">Downloadable Guide</span>
+      <h3>Get the MountJoy Photographer experience guide with session types, process notes and print information.</h3>
+    </div>
+    <a class="button-secondary" href="assets/MountJoy-Photographer-Experience-Guide.pdf" target="_blank">Download Guide</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Journal</span>
+      <h2>Latest stories and inspiration.</h2>
+    </div>
+    <div class="blog-grid">
+      <article class="card blog-card reveal">
+        <div class="visual" style="background-image:url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=80')"></div>
+        <div class="card-body"><small>Travel Guide</small><h3>Best golden-hour spots for portraits in Dublin</h3><p>A curated route for soft light, elegant city textures and memorable travel portraits.</p></div>
+      </article>
+      <article class="card blog-card reveal">
+        <div class="visual" style="background-image:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80')"></div>
+        <div class="card-body"><small>Print Notes</small><h3>How to choose the right landscape print size</h3><p>A simple guide to scale, framing and placement for modern interiors.</p></div>
+      </article>
+      <article class="card blog-card reveal">
+        <div class="visual" style="background-image:url('https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?auto=format&fit=crop&w=900&q=80')"></div>
+        <div class="card-body"><small>Client Experience</small><h3>What a premium travel session actually feels like</h3><p>From planning to gallery delivery, here is how the process is designed to feel effortless.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand" style="margin-bottom:14px;">
+          <img src="assets/logo.png" alt="MountJoy Photographer logo">
+          <div class="brand-text">
+            <strong>MountJoy Photographer</strong>
+            <span>Landscape and trips photographer in Dublin</span>
+          </div>
+        </div>
+        <p>Luxury-inspired travel, landscape and portrait photography for tourists, families and brands who want work that feels cinematic, elegant and memorable.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <div class="footer-links">
+          <a href="pages/about.html">About</a>
+          <a href="pages/portfolio.html">Portfolio</a>
+          <a href="pages/services.html">Services</a>
+          <a href="pages/packages.html">Packages</a>
+          <a href="pages/prints.html">Prints</a>
+        </div>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <div class="footer-links">
+          <a href="mailto:hello@mountjoyphotographer.com">hello@mountjoyphotographer.com</a>
+          <a href="tel:+35315550124">+353 1 555 0124</a>
+          <a href="https://instagram.com/mountjoyphotographer" target="_blank">@mountjoyphotographer</a>
+          <a href="https://wa.me/353851234567" target="_blank">WhatsApp Chat</a>
+          <a href="pages/contact.html">Mountjoy Square, Dublin 1</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 MountJoy Photographer. Crafted for premium storytelling in Dublin and beyond.</span>
+      <div class="socials">
+        <a href="https://instagram.com/mountjoyphotographer" target="_blank" aria-label="Instagram">IG</a>
+        <a href="https://www.pinterest.com/mountjoyphotographer" target="_blank" aria-label="Pinterest">PI</a>
+        <a href="https://www.behance.net/mountjoyphotographer" target="_blank" aria-label="Behance">Be</a>
+        <a href="mailto:hello@mountjoyphotographer.com" aria-label="Email">@</a>
+      </div>
+    </div>
+  </div>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
